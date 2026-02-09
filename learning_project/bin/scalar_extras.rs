@@ -11,5 +11,7 @@ fn main() {
     println!("The value of min is: {}", min);
     println!("The value of max is: {}", max);
     // overflow
+    let mut u: u32 = u32::MAX;
+    u += 1;
+    println!("overflow u32: {}");
 }
-//compound types
