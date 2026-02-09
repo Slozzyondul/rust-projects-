@@ -13,4 +13,13 @@ fn main() {
     //constants
     const MAX_POINTS: u32 = 100_000;
     println!("The value of MAX_POINTS is: {}", MAX_POINTS);
+
+    //vectors
+    let v: Vec<_> = vec![1, 2, 3, 4, 5];
+
+    //shadowing
+    let x = 5;
+    let x = x + 1;
+    let x = x * 2;
+    println!("The value of x is: {}", x);
 }
