@@ -14,5 +14,5 @@ fn main() {
     // nested tuple
     let z = (1, (2, 3), 4);
     // print nested tuple
-    println!("z = {}, {:?}, {}", z.0, z.1, z.2);
+    println!("z = {}, {}, {}", z.0, z.1.1, z.2);
 }
