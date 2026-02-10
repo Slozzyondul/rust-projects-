@@ -40,4 +40,25 @@ fn main() {
         }
     }"#;
     println!("{s}");
+
+    // deref coercion
+    let msg: String = String::from("hello solo");
+    let slice: &str = &msg;
+    println!("{slice}");
+
+    // add &str to String
+    let mut msg: String = "hello solo".to_string();
+    msg += " from kenya";
+    println!("{msg}");
+
+    // add String to String
+    let mut msg: String = "hello solo".to_string();
+    msg += &String::from(" from kenya");
+    println!("{msg}");
+
+    // string interpolation
+    let name: &str = "solo";
+    let age: u8 = 29;
+    let msg: String = format!("hello {}, you are {} years old", name, age);
+    println!("{msg}");
 }
