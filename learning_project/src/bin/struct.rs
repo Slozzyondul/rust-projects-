@@ -34,6 +34,10 @@ fn main() {
     // debug
     // read
     // shortcut
+    let x = 1.0;
+    let y = 2;
+    let p = Point { x, y };
+    println!("point = {:?}", p);
     // copy fields
     // update
 }
