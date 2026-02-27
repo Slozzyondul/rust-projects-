@@ -44,4 +44,8 @@ fn main() {
 
     println!("point0 = {:?}, point1 = {:?}", p0, p1);
     // update
+    let mut p2 = Point { x: 1.0, y: 2 };
+    p2.x += 15.0;
+    p2.y += 15;
+    println!("point2 = {:?}", p2);
 }
