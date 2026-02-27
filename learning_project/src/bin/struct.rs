@@ -39,5 +39,9 @@ fn main() {
     let p = Point { x, y };
     println!("point = {:?}", p);
     // copy fields
+    let p0 = Point { x: 1.0, y: 2 };
+    let p1 = Point { x: 111.0, ..p0 };
+
+    println!("point0 = {:?}, point1 = {:?}", p0, p1);
     // update
 }
