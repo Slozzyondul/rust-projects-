@@ -9,7 +9,7 @@ fn main() {
     arr[2] = 4;
     println!("arr[2] = {}", arr[2]);
 
-    let arr: [u32; 10] = [0; 10];
+    let arr: [u32; 10] = [20; 10];
     println!("{:?}", arr);
     // slice - dynamic length, known at runtime
     let nums: [i32; 10] = [-1, 1, -2, 2, -3, 3, -4, 4, -5, 5];
