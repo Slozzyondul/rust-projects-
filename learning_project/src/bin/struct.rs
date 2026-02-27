@@ -2,8 +2,8 @@
 
 //point struct
 struct Point {
-    x: i32,
-    y: i32,
+    x: f32,
+    y: u32,
 }
 
 // 3d point struct
@@ -20,8 +20,10 @@ struct Circle {
 }
 
 fn main() {
-
     // create
+    let p = Point { x: 10.0, y: 20 };
+    println!("point.x = {}, point.y = {}", p.x, p.y);
+
     // debug
     // read
     // shortcut
