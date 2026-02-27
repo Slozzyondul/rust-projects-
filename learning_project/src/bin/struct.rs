@@ -1,6 +1,7 @@
 #![allow(unused)]
 
-//point struct
+//point struct\
+#[derive(Debug)]
 struct Point {
     x: f32,
     y: u32,
@@ -10,6 +11,7 @@ struct Point {
 struct Point3d(f32, f32, f32);
 
 //netsted struct
+#[derive(Debug)]
 struct Circle {
     center: Point,
     radius: u32,
@@ -22,6 +24,12 @@ fn main() {
 
     let p3d = Point3d(10.0, 20.0, 30.0);
     println!("point3d = {}, {}, {}", p3d.0, p3d.1, p3d.2);
+
+    let c = Circle {
+        center: Point { x: 10.0, y: 20 },
+        radius: 30,
+    };
+    println!("circle = {:?}", c);
 
     // debug
     // read
