@@ -41,7 +41,8 @@ Currently, the main focus is on the `learning_project` directory, which contains
     - `scalar_extras.rs`: Further exploration of scalar types and their properties.
     - `string.rs`: String manipulation (String vs &str).
     - `tuples.rs`: Working with tuples.
-    - `struct.rs`: Custom data structures.
+    - `struct.rs`: Custom data structures (classical, tuple, and unit-like structs).
+    - `struct_methods.rs`: Implementing methods and associated functions for structs.
 
 ## 🛠️ Usage
 
@@ -63,8 +64,8 @@ You can run any of the files in `src/bin` using the `--bin` flag followed by the
 # Example: running the enums exercise
 cargo run --bin enum
 
-# Example: running the strings exercise
-cargo run --bin string
+# Example: running the struct methods exercise
+cargo run --bin struct_methods
 ```
 
 ### Check for Errors
