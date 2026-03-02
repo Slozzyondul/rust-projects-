@@ -1,5 +1,12 @@
 #![allow(unused)]
 
+enum Animal {
+    Dog,
+    Cat,
+    Fish,
+    Bird,
+}
+
 fn main() {
     let x = 1;
     if x == 1 {
@@ -43,6 +50,15 @@ fn main() {
     }
 
     // return value
+    let animal = Animal::Cat;
+    let animal_sound = match animal {
+        Animal::Dog => "woof",
+        Animal::Cat => "meow",
+        Animal::Fish => "blub",
+        Animal::Bird => "chirp",
+        _ => "unknown",
+    };
+    println!("{}", animal_sound);
 
     // option
 
