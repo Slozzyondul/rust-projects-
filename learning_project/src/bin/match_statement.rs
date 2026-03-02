@@ -68,4 +68,9 @@ fn main() {
     }
 
     // result
+    let x: Result<i32, &str> = Ok(5);
+    match x {
+        Ok(val) => println!("{}", val),
+        Err(err) => println!("{}", err),
+    }
 }
