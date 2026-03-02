@@ -19,4 +19,4 @@ Thumbs.db
 # Binaries
 bin/
 **/bin/
-!src/bin/
+!**/src/bin/
