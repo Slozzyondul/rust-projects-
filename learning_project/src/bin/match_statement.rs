@@ -20,6 +20,12 @@ fn main() {
         _ => println!("something else"),
     }
     // multiple cases
+    let x = 5;
+    match x {
+        1 | 2 | 3 => println!("one or two or three"),
+
+        _ => println!("something else"),
+    }
 
     // range
 
