@@ -6,9 +6,9 @@ enum Animal {
     Fish,
     Bird,
 }
-
+//
 fn main() {
-    let x = 1;
+    let x = 187;
     if x == 1 {
         println!("one");
     } else if x == 2 {
@@ -20,7 +20,7 @@ fn main() {
     }
 
     // match
-    let x = 3;
+    let x = 386;
     match x {
         1 => println!("one"),
         2 => println!("two"),
@@ -37,7 +37,7 @@ fn main() {
     }
 
     // range
-    let x = 5;
+    let x = -5;
     match x {
         1..=5 => println!("one or two or three or four or five"),
         _ => println!("something else"),
@@ -56,7 +56,7 @@ fn main() {
         Animal::Cat => "meow",
         Animal::Fish => "blub",
         Animal::Bird => "chirp",
-        _ => "unknown",
+        _ => "research bana",
     };
     println!("{}", animal_sound);
 
