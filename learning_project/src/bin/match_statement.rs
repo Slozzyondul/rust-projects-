@@ -61,6 +61,11 @@ fn main() {
     println!("{}", animal_sound);
 
     // option
+    let x: Option<i32> = Some(5);
+    match x {
+        Some(val) => println!("{}", val),
+        None => println!("nothing"),
+    }
 
     // result
 }
