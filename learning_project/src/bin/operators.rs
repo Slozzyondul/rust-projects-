@@ -26,6 +26,9 @@ fn main() {
     let f = 1_000_000_000u32; // 1,000,000,000u32
 
     // boolean
+    let a = true && false; // false
+    let b = true || false; // true
+    let c = !true; // false
 
     //bitwise
 }
