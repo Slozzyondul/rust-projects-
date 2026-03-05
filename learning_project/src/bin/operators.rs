@@ -31,4 +31,24 @@ fn main() {
     let c = !true; // false
 
     //bitwise
+    //101
+    let a: u8 = 5;
+
+    // 011
+    let b: u8 = 3;
+
+    // 111
+    println!("a & b = {}", a & b);
+
+    // 111
+    println!("a | b = {}", a | b);
+
+    // 110
+    println!("a ^ b = {}", a ^ b);
+
+    // 10100
+    println!("a << 2 = {}", a << 2);
+
+    // 00101
+    println!("a >> 2 = {}", a >> 2);
 }
