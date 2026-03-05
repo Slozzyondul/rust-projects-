@@ -13,6 +13,9 @@ fn main() {
     println!("x / y = {}", x / y);
 
     // %  (remainder or mod operation)
+    let x: i32 = -1;
+    let y: i32 = 2;
+    println!("x % y = {}", x % y);
 
     // literals
 
