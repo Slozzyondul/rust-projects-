@@ -18,6 +18,12 @@ fn main() {
     println!("x % y = {}", x % y);
 
     // literals
+    let a = 3i32; // i32 format number (3)
+    let b = 1.23e3; // 1.23 x 10^3
+    let c = 0x1A; // hex format number (26)
+    let d = 0b1010; // binary format number (10)
+    let e = 0o755; // octal format number (493)
+    let f = 1_000_000_000u32; // 1,000,000,000u32
 
     // boolean
 
