@@ -27,7 +27,15 @@ fn main() {
     }
 
     // usize and range
+    let n: usize = arr.len();
+    for i in 0..n {
+        println!("array {}", arr[i]);
+    }
     // for loop vector
+    let vec: Vec<i32> = vec![1, 2, 3, 4, 5];
+    for i in vec {
+        println!("vector {}", i);
+    }
     // iter
     // return value
     // labels
