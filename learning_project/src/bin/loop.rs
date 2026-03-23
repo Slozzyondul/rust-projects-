@@ -33,10 +33,18 @@ fn main() {
     }
     // for loop vector
     let vec: Vec<i32> = vec![1, 2, 3, 4, 5];
-    for i in vec {
-        println!("vector {}", i);
-    }
+    // for i in vec {
+    //     println!("vector {}", i);
+    // }
     // iter
+    for x in vec.iter() {
+        println!("iter {}", x);
+    }
+
+    for x in vec.iter() {
+        println!("iter {}", x);
+    }
     // return value
+
     // labels
 }
