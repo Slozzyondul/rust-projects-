@@ -21,6 +21,11 @@ fn main() {
         println!("for {i}");
     }
     // for loop array
+    let arr: [i32; 5] = [1, 2, 3, 4, 5];
+    for i in arr {
+        println!("for {i}");
+    }
+
     // usize and range
     // for loop vector
     // iter
