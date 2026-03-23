@@ -11,6 +11,11 @@ fn main() {
         i += 1;
     }
     // while
+    let mut i = 0;
+    while i <= 10 {
+        println!("while {i}");
+        i += 1;
+    }
     // for loop
     // for loop array
     // usize and range
