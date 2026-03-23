@@ -45,6 +45,22 @@ fn main() {
         println!("iter {}", x);
     }
     // return value
+    let mut i = 0;
+    let z = loop {
+        if i == 0 {
+            break 99;
+        }
+        i += 1;
+    };
+    println!("return loop {z}");
 
     // labels
+    'outer: for i in 0..5 {
+        'inner: for j in 0..5 {
+            println!("{i}, {j}");
+            if i == 1 && j == 2 {
+                break 'outer;
+            }
+        }
+    }
 }
