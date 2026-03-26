@@ -1,7 +1,8 @@
 #[allow(unused)]
 
 fn main() {
-    let x: Option<u32> = Some(123);
+    //let x: Option<u32> = Some(123);
+    let x: Option<u32> = None;
     match x {
         Some(v) => println!("value is {v}"),
         _ => {}
@@ -12,4 +13,9 @@ fn main() {
     }
 
     // let else
+    let Some(v) = x else {
+        // diverge - panic or return
+        panic!("x is not Some");
+    };
+    println!("v = {v}");
 }
