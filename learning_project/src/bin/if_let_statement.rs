@@ -7,6 +7,9 @@ fn main() {
         _ => {}
     }
     // if let
+    if let Some(v) = x {
+        println!("if let {v}");
+    }
 
     // let else
 }
